@@ -1,0 +1,32 @@
+<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+
+
+        {% for product in __SELF__.products %}
+<div style="float:left; margin: 10px">
+            <div class=""  >
+                <img src="{{ product.image }}" class="">
+                        <div class="">
+                            <h3>{{ product.name }}</h3>
+                        </div>
+                        <div class="">
+                            <h3><label>{{ product.price }}</label></h3>
+                        </div>
+                    </div>
+                    <p>{{ product.description }}</p>
+                        <div class="">
+                            <form action="" method="">
+                                <script
+                                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                        data-key="{{ __SELF__.api_key }}"
+                                        data-amount="${{ product.price }}.00"
+                                        data-name="{{ product.name }}"
+                                        data-description="1x {{ product.name }} (${{ product.price }})"
+                                        data-image="http://placehold.it/650x450"
+                                        data-address="">
+                                </script>
+                                <input type="hidden" name="product_id" value="{{ product.id }}" />
+                            </form>
+                        </div>
+</div>
+        {% endfor %}
+

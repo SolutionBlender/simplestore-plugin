@@ -1,0 +1,9 @@
+1.0.1:
+    - Added some upgrade file and some seeding
+    - create_products_table.php
+1.0.2:
+    - Added seed file
+    - seed_products_table.php
+1.0.3:
+    - Added settings table
+    - create_settings_table.php

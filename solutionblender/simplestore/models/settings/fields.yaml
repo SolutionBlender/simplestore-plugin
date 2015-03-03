@@ -1,0 +1,9 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    api_key:
+        label: Key
+    api_key_publishable:
+        label: Key Publishable

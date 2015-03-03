@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    id:
+        label: ID
+        disabled: true
+
+    name:
+        label: Name
+
+    price:
+        label: Price
+
+    image:
+        label: Image
+
+    in_stock:
+        label: In Stock
+
+    description:
+        label: Description
+

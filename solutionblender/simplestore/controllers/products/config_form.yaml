@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/solutionblender/simplestore/models/product/fields.yaml
+
+# Model Class name
+modelClass: SolutionBlender\SimpleStore\Models\Product
+
+# Default redirect location
+defaultRedirect: solutionblender/simplestore/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: solutionblender/simplestore/products/update/:id
+    redirectClose: solutionblender/simplestore/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: solutionblender/simplestore/products
+    redirectClose: solutionblender/simplestore/products
+
+# Preview page
+preview:
+    title: Preview Product

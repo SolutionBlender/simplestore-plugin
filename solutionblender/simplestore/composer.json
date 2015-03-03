@@ -1,0 +1,16 @@
+{
+    "name": "solutionblender/simplestore",
+    "description": "Store plugin for OctoberCMS",
+    "homepage": "http://solutionblender.ca",
+    "keywords": ["solutionblender", "cms", "store", "simple", "simplestore"],
+    "authors": [
+        {
+            "name": "Alex Hughes",
+            "email": "alex@solutionblender.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "stripe/stripe-php": "dev-master"
+    }
+}
