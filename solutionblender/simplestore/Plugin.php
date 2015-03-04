@@ -23,7 +23,7 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'SimpleStore',
-            'description' => 'A simple store with Stripe integration',
+            'description' => 'A eCommerce solution with Stripe integration',
             'author'      => 'SolutionBlender',
             'icon'        => 'icon-leaf'
         ];

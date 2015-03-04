@@ -2,7 +2,7 @@
     "name": "solutionblender/simplestore",
     "description": "Store plugin for OctoberCMS",
     "homepage": "http://solutionblender.ca",
-    "keywords": ["solutionblender", "cms", "store", "simple", "simplestore"],
+    "keywords": ["solutionblender", "cms", "store", "simple", "simplestore", "eCommerce"],
     "authors": [
         {
             "name": "Alex Hughes",
